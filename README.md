@@ -61,11 +61,11 @@ cv2.destroyAllWindows()
 ### iii)Convert RGB and BGR to YCrCb
 ```
 import cv2
-houseImage = cv2.imread('pic.jpeg')
-cv2.imshow('Original HSV Image',houseImage)
-YCrCb_image = cv2.cvtColor(houseImage, cv2.COLOR_RGB2YCrCb)
+boom = cv2.imread('b.jpeg')
+cv2.imshow('Original HSV Image',boom)
+YCrCb_image = cv2.cvtColor(boom, cv2.COLOR_RGB2YCrCb)
 cv2.imshow('BGR2HSV',YCrCb_image)
-YCrCb_image1 = cv2.cvtColor(houseImage, cv2.COLOR_BGR2YCrCb)
+YCrCb_image1 = cv2.cvtColor(boom, cv2.COLOR_BGR2YCrCb)
 cv2.imshow('RGB2HSV',YCrCb_image1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -73,7 +73,7 @@ cv2.destroyAllWindows()
 ### iv)Split and Merge RGB Image
 ```
 import cv2
-image = cv2.imread('pic.jpeg')
+image = cv2.imread('b.jpeg')
 blue = image[:,:,0]
 green = image[:,:,1]
 red = image[:,:,2]
@@ -88,7 +88,7 @@ cv2.destroyAllWindows()
 ### v) Split and merge HSV Image
 ```
 import cv2
-image = cv2.imread('pic.jpeg')
+image = cv2.imread('b.jpeg')
 hsv = cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 h,s,v = cv2.split(hsv)
 cv2.imshow('Hue - Image',h)
@@ -97,7 +97,7 @@ cv2.imshow('Gray - Image',v)
 mergedHSV = cv2.merge((h,s,v))
 cv2.imshow('Merged HSV Image',mergedHSV)
 cv2.waitKey(0)
-cv2.destroyAllWindow
+cv2.destroyAllWindows()
 ```
 
 
@@ -125,38 +125,36 @@ cv2.destroyAllWindow
 <br>
 
 ### iii) RGB and BGR to YCrCb
-![Screenshot 2023-08-31 223209](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/b3e792e3-dede-4b9f-9e23-0f46f48e0bc2)
+![3(1)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/6d50d833-1e13-44f9-8f9a-86427e1c881b)
 
+![3(2)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/8b7697c0-8d9c-48ca-94c3-7206af200284)
 
-![Screenshot 2023-08-31 223840](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/8a6b5301-7f65-48d3-8a9b-5d2cfc1fddf4)
-
-
-![Screenshot 2023-08-31 223850](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/957b3893-5393-41d5-98b4-fb792b705a66)
+![3(3)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/673a951d-e364-459d-93a8-0516df6d5455)
 
 <br>
 <br>
 
 ### iv) Split and merge RGB Image
-![Screenshot 2023-08-31 224046](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/4c66f5dd-fd1d-460c-830b-fc12febbe9e4)
+![4(1)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/3bffc00f-beec-44da-81fe-f23cf4546c7c)
 
-![Screenshot 2023-08-31 224100](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/a828f477-bdd1-435a-b2bd-37469798915c)
+![4(2)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/4dfc2e4a-d26d-46b4-8c36-e40fbb47aebe)
 
-![Screenshot 2023-08-31 224109](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/88e83cc3-1e65-4779-8307-1fc6ef1d1229)
+![4(4)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/0b9dd05a-599c-4043-badd-58f526add4eb)
 
-![Screenshot 2023-08-31 224121](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/273aa11f-2365-4205-a7c3-19af58309887)
+![4(3)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/39b90418-2a60-41ff-9d71-91c6e7b0b350)
 
 <br>
 <br>
 
 ### v) Split and merge HSV Image
 
-![Screenshot 2023-08-31 224353](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/50eccce3-9396-45cb-9dd3-ecf28fe84a24)
+![5(1)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/061fd679-b274-412c-af06-9878c33c9fab)
 
-![Screenshot 2023-08-31 224404](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/1b90bdcc-c3a3-47f2-86f2-b66e0d3b6f0f)
+![5(2)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/a0c077d9-9af3-4ab6-961c-64b3341ebbbf)
 
-![Screenshot 2023-08-31 224415](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/481486cc-fcf8-430f-aa8d-97e2b6222f6a)
+![5(3)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/92b0130a-d19e-428e-935b-b220aa03aaa6)
 
-![Screenshot 2023-08-31 224430](https://github.com/Yamunaasri/COLOR-CONVERSION/assets/115707860/648ae816-2dbc-4f61-98d5-b4f7a81c2a33)
+![5(4)](https://github.com/aldrinlijo04/COLOR-CONVERSION/assets/118544279/97bedfd8-f807-4dc6-8e9c-96e34f7fcd27)
 
 <br>
 <br>
